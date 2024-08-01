@@ -60,3 +60,5 @@ const registerAddAge = students.map(student => ({
     age: Math.floor(Math.random() * (23 - 21 + 1)) + 21 // Random age between 21 and 23
 }));
 console.log(registerAddAge);
+
+// MAP CHALLENGE
