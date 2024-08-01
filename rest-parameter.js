@@ -1,9 +1,3 @@
-/** 
- * To run this file in Gitpod, use the
- * command: node rest-parameter.js
- * in the terminal
-*/
-
 //Regular function call
 const sumAll = (a, b, c) => a + b + c;
 let sum = sumAll(1, 2, 3);
