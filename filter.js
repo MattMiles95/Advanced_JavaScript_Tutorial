@@ -77,7 +77,7 @@ console.log(paul);
 
   // FILTER CHALLENGE
 
-  let students = [
+  let chStudents = [
     {
         name: 'John',
         subjects: ['maths', 'english', 'cad'],
@@ -104,5 +104,5 @@ console.log(paul);
     }
 ];
 
-const topMaths = students.filter(student => [student.results.maths] >= 90);
+const topMaths = chStudents.filter(chStudent => [chStudent.results.maths] >= 90);
 console.log(topMaths)
